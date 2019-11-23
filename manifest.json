@@ -1,0 +1,22 @@
+{
+    "name": "Google Colab Auto Connector",
+    "description": "Prevents Google Colab from automatically disconnecting",
+    "version": "1.0",
+    "manifest_version": 2,
+    "icons": {
+        "128": "icon128.png",
+        "48": "icon48.png",
+        "16": "icon16.png" 
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://colab.research.google.com/*"
+            ],
+            "js": [
+                "jquery.js",
+                "myscript.js"
+            ]
+        }
+    ]
+}
