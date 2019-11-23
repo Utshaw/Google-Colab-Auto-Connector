@@ -10,3 +10,5 @@ This extension currently works on Google Chrome web browser which automatically 
 - Click on `Load unpacked` button
 - Select & open the Google Colab Auto Connector  folder
 
+Motivated from [Stack Overflow](https://stackoverflow.com/questions/57113226/how-to-prevent-google-colab-from-disconnecting/58275370#58275370)
+
